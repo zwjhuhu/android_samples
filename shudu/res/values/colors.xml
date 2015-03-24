@@ -1,0 +1,6 @@
+<resources>
+<color name="shudu_backgroud">#ffe6f0ff</color>
+<color name="shudu_hilite">#ffffffff</color>
+<color name="shudu_light">#64c6d4ef</color>
+<color name="shudu_dark">#6456548f</color>
+</resources>

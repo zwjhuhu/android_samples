@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.zwj.shudu.MainActivity" >
+
+    <item
+        android:id="@+id/action_test"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom|withText"
+        android:title="test"/>
+    
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_exit"/>
+
+</menu>

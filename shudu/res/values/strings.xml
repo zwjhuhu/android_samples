@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">shudu</string>
+    <string name="action_exit">退出</string>
+    <string name="full_number">没有可填入的数字了</string>
+	<string name="keydialog_title">keydialog</string>
+</resources>
