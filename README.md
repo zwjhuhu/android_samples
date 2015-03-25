@@ -7,3 +7,4 @@
 ##项目列表
 * ListViewDelete 仿QQ滑动删除
 * shudu 数独游戏的简单例子
+* MyAppWeixin 高仿微信界面，要感谢作者谜@BUAA
