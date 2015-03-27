@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidTools</string>
+    <string name="alert_dialog_default_title">提示</string>
+    <string name="alert_dialog_default_btn_ok">确定</string>
+    <string name="confirm_dialog_default_title">确认</string>
+    <string name="confirm_dialog_default_btn_ok">确定</string>
+    <string name="confirm_dialog_default_btn_cancel">取消</string>
+    <string name="select_date_dialog_default_title">选择时间</string>
+    <string name="select_date_dialog_default_startdate_label">开始日期</string>
+    <string name="select_date_dialog_default_enddate_label">结束日期</string>
+    <string name="select_date_dialog_default_btn_ok">确认</string>
+    <string name="select_date_dialog_default_btn_reset">重置</string>
+    <string name="select_date_dialog_default_btn_cancel">取消</string>
+    <string name="select_date_dialog_default_msg_error1">结束时间不能早于开始时间</string>
+    <string name="connector_progress_msg">通讯中，请稍后...</string>
+</resources>

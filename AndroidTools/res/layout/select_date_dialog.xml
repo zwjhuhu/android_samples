@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@drawable/select_date_dialog_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:focusable="true"  android:focusableInTouchMode="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_date_dialog_default_startdate_label" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/startDate" android:inputType="date"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:focusable="true"  android:focusableInTouchMode="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_date_dialog_default_enddate_label" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/endDate" android:inputType="date"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" >
+        <Button android:gravity="center" android:id="@+id/ok" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="@string/select_date_dialog_default_btn_ok" style="@style/select_date_dialog_btn" />
+        <Button android:gravity="center" android:id="@+id/reset" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="@string/select_date_dialog_default_btn_reset" style="@style/select_date_dialog_btn" />
+        <Button android:gravity="center" android:id="@+id/cancel" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip" android:text="@string/select_date_dialog_default_btn_cancel" style="@style/select_date_dialog_btn" />
+    </LinearLayout>
+</LinearLayout>
